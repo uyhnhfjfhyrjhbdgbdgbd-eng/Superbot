@@ -1,0 +1,25 @@
+{
+  "geode": "5.11.2",
+  "gd": { "win": "2.2081", "android": "2.2081" },
+  "id": "tunombre.probot",
+  "name": "ProBot",
+  "version": "v2.0.0",
+  "developer": "TuNombre",
+  "description": "Bot que juega por ti en cubo, nave, bola, UFO, wave, robot, araña y swing.",
+  "settings": {
+    "enabled": {
+      "type": "bool",
+      "name": "Activar bot",
+      "description": "Activa o desactiva el bot.",
+      "default": true
+    },
+    "lookahead-ms": {
+      "type": "int",
+      "name": "Anticipación (ms)",
+      "description": "Cuánto antes del peligro reacciona el bot.",
+      "default": 120,
+      "min": 40,
+      "max": 300
+    }
+  }
+}
